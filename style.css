@@ -1,14 +1,16 @@
 body p{
     margin: 0;
     padding:0;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+
 }
 
 nav{
     display: flex;
     justify-content: space-around;
     width: 20%;
-    margin-left: auto;
-    padding: 2em;
+    margin-left:auto;
+    padding: 1em;
 }
 
 a{
@@ -24,7 +26,7 @@ nav img{
 }
 main{
     width: 50%;
-    margin: 6.9em auto;
+    margin: 5em auto;
     text-align: center;
 }
 input{
@@ -42,8 +44,20 @@ input{
     border: none;
 }
 
+#lang{
+    padding: 1em;
+}
+
+.links{
+    padding: 1.5em;
+    font: rgb(22, 20, 20);
+}
+.links a{
+    color: hsl(245, 86%, 36%);
+    margin-right: 0.8em
+}
 footer{
-    background-color: rgb(160, 156, 156);
+    background-color: rgb(170, 168, 168);
 
 }
 .footer_top{
@@ -54,6 +68,9 @@ footer{
     display: flex;
     justify-content: space-between;
     border-top: 1px solid gray;
+    color: #70757a;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .left a{
